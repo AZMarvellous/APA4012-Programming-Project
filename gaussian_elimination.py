@@ -1,7 +1,5 @@
 import numpy as np
 
-
-# simply run the script with
 # you may change the list here to alter the size of random testing matrix.
 TEST_SIZE = [3, 4, 10]
 
@@ -46,7 +44,7 @@ def gauss(A, b):
 
     return x
 
-def test_gauss():
+def random_testing():
     for n in TEST_SIZE:
         print(f"\nTesting system of size {n}x{n} with random matrix:")
         A = np.random.rand(n, n)
@@ -70,4 +68,4 @@ def test_gauss():
             print(e)
 
 if __name__ == "__main__":
-    test_gauss()
+    random_testing()
