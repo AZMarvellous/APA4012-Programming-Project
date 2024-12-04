@@ -23,7 +23,8 @@ pip install numpy pillow matplotlib
 run the code with:
 
 ```
-python ./image_compression_svd ./testing.jpg
+python ./image_compression_svd.py ./FigureExample_Q2/Q2example1.jpg
+python ./image_compression_svd.py ./FigureExample_Q2/Q2example2.jpg
 ```
 
-you may change the `./testing.jpg` to the path of any picture you want to test.
+**It may take a minute or two to run**. Also you may change the `./FigureExample...` to the path of any picture you want to test.
